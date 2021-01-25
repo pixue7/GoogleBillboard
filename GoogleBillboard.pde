@@ -5,7 +5,8 @@ public void setup()
   for(int i = 2; i < e.length(); i++){
     digits = e.substring(i, i + 10);
     if(isPrime(Double.parseDouble(digits))){
-      System.out.println(digits);
+      double dNum = Double.parseDouble(digits);
+      System.out.println(dNum);
       break;
     }
   }
